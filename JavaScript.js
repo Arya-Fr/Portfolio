@@ -21,7 +21,7 @@ function rotateCarousel() {
     tableau[selectedIndex].classList.add('description--active');
   switch(selectedIndex){
     case 0 : lien.href = "https://github.com/Arya-Fr/Zeldo" ;break;
-    case 1 : lien.href = "https://www.developpez.net/forums/d563275/javascript/general-javascript/modifier-href/" ;break;
+    case 1 : lien.href = "https://github.com/Arya-Fr/Portfolio" ;break;
     case 2 : lien.href = "https://www.youtube.com/watch?v=ZmXjLvfKSpg" ; break;
   }
 }
