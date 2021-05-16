@@ -1,0 +1,97 @@
+.iconeMail {
+       
+    background-image: url(./image/IcoContact1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeMail:hover {
+    background-image: url(./image/IcoContact2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeProjet {
+   
+    background-image: url(./image/IcoProjet1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeProjet:hover {
+    background-image: url(./image/IcoProjet2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeHome {
+    background-image: url(./image/IcoHome1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeHome:hover {
+    background-image: url(./image/IcoHome2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeCompetence {
+    background-image: url(./image/IcoCompet1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeCompetence:hover {
+    background-image: url(./image/IcoCompet2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeLink {
+    background-image: url(./image/IcoLink1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeLink:hover {
+    background-image: url(./image/IcoLink2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeGit {
+    background-image: url(./image/IcoGit1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeGit:hover {
+    background-image: url(./image/IcoGit2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeM {
+    background-image: url(./image/IcoMail1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeM:hover {
+    background-image: url(./image/IcoMail2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeT {
+    background-image: url(./image/IcoTel1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeT:hover {
+    background-image: url(./image/IcoTel2.png);
+    background-size: cover;
+    background-position: center;
+}
