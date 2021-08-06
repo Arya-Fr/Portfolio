@@ -48,6 +48,18 @@
     background-position: center;
 }
 
+.iconeCV {
+    background-image: url(./image/IcoCV1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.iconeCV:hover {
+    background-image: url(./image/IcoCV2.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .iconeLink {
     background-image: url(./image/IcoLink1.png);
     background-size: cover;
