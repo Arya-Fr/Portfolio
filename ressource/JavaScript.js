@@ -22,7 +22,7 @@ function rotateCarousel() {
   switch(selectedIndex){
     case 0 : lien.href = "https://github.com/Arya-Fr/Zeldo" ;break;
     case 1 : lien.href = "https://github.com/Arya-Fr/Portfolio" ;break;
-    case 2 : lien.href = "" ; break;
+    case 2 : lien.href = "https://google.com" ; break;
   }
 }
 
