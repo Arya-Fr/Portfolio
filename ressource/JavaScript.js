@@ -1,8 +1,9 @@
 var carousel = document.querySelector('.carousel');
 var cells = carousel.querySelectorAll('.carousel__cell');
-var cellCount = 3; 
+var cellCount = 3;
 var selectedIndex = 0;
 var selectedRotation = 0;
+var compteur = document.getElementById("numcarous");
 var cellWidth = carousel.offsetWidth;
 var cellHeight = carousel.offsetHeight;
 var isHorizontal = true;
@@ -12,53 +13,61 @@ var radius, theta;
 var element = document.querySelector('.description');
 var tableau = element.getElementsByTagName('div');
 
-var lien = document.getElementById('pro');
+var git = document.getElementById('pro');
+var test = document.getElementById('pla');
+
+function retourNormal(){
+  element.style.transform = 'translateX(0px)';
+  
+  rotateCarousel();
+}
 
 function rotateCarousel() {
   var angle = theta * selectedRotation * -1;
-  carousel.style.transform = 'translateZ(' + -radius + 'px) ' + 
+  carousel.style.transform = 'translateZ(' + -radius + 'px) ' +
     rotateFn + '(' + angle + 'deg)';
-    tableau[selectedIndex].classList.add('description--active');
-  switch(selectedIndex){
-    case 0 : lien.href = "https://github.com/Arya-Fr/Zeldo" ;break;
-    case 1 : lien.href = "https://github.com/Arya-Fr/Portfolio" ;break;
-    case 2 : lien.href = "https://google.com" ; break;
+  tableau[selectedIndex].classList.add('description--active');
+  compteur.innerHTML = selectedIndex + 1 + "/" + cellCount;
+  switch (selectedIndex) {
+    case 0: git.href = "https://github.com/Arya-Fr/Zeldo"; break;
+    case 1: git.href = "https://github.com/Arya-Fr/Portfolio"; break;
+    case 2: git.href = "https://google.com"; break;
   }
 }
 
 var prevButton = document.querySelector('.previous-button');
-prevButton.addEventListener( 'click', function() {
+prevButton.addEventListener('click', function () {
+  element.style.transform = 'translateX(250px)';
   tableau[selectedIndex].classList.remove('description--active');
+  setTimeout(retourNormal,200);
   if (selectedIndex > 0) {
     selectedIndex--;
-  }else{
+  } else {
     selectedIndex = cellCount - 1;
   }
   selectedRotation--;
-  rotateCarousel();
 });
 
 var nextButton = document.querySelector('.next-button');
-nextButton.addEventListener( 'click', function() {
+nextButton.addEventListener('click', function () {
+  element.style.transform = 'translateX(250px)';
   tableau[selectedIndex].classList.remove('description--active');
-  if (selectedIndex == cellCount - 1){
+  setTimeout(retourNormal,200);
+  if (selectedIndex == cellCount - 1) {
     selectedIndex = 0;
-  }else{
+  } else {
     selectedIndex++;
   }
   selectedRotation++;
-  rotateCarousel();
 });
-
-
 
 function changeCarousel() {
   theta = 360 / cellCount;
   var cellSize = isHorizontal ? cellWidth : cellHeight;
-  radius = Math.round( ( cellSize / 2) / Math.tan( Math.PI / cellCount ) );
-  for ( var i=0; i < cells.length; i++ ) {
+  radius = Math.round((cellSize / 2) / Math.tan(Math.PI / cellCount));
+  for (var i = 0; i < cells.length; i++) {
     var cell = cells[i];
-    if ( i < cellCount ) {
+    if (i < cellCount) {
       // visible cell
       cell.style.zindex = 4;
       var cellAngle = theta * i;
@@ -72,4 +81,42 @@ function changeCarousel() {
 
   rotateCarousel();
 }
- changeCarousel();
+changeCarousel();
+
+let marker = document.querySelector('#marker');
+let list = document.querySelectorAll('ul li');
+
+function moveIndicator(e) {
+  marker.style.left = e.offsetLeft + 'px';
+  marker.style.width = e.offsetWidth + 'px';
+}
+
+list.forEach(link => {
+  link.addEventListener('mousemove', (e) => {
+    moveIndicator(e.target);
+    marker.style.display = 'block';
+  })
+})
+
+function activeLink() {
+  list.forEach((item) =>
+    item.classList.remove('active'));
+  this.classList.add('active');
+}
+
+list.forEach((item) =>
+  item.addEventListener('mouseover', activeLink));
+
+let vid = document.getElementById("vidon");
+let logovid = document.getElementById("logovid");
+const video = document.querySelector("#myVideo");
+
+vid.addEventListener('click', function () {
+  if (video.paused) {
+    video.play();
+    logovid.name = "pause-outline";
+  } else {
+    video.pause();
+    logovid.name = "play-outline";
+  }
+});

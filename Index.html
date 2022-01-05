@@ -4,38 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BIANCHI Marius portfolio</title>
+    <title>BIANCHI Marius</title>
     <link rel="stylesheet" href="./ressource/style.css">
-    <link rel="icon" href="./ressource/image/Logo page.png"/>
-    
+    <link rel="icon" href="./ressource/image/Logo page.png" />
 </head>
 
 
 <body>
-    
     <h1>BIANCHI Marius</h1>
     <header class="deb"></header>
     <div class="debimage"></div>
-     <nav class="nav1">
-        <ul id="nav" class="flex1">
-            <li><a href="#" class="iconeHome" ></a></li>
-            <li><a href="#Competence" class="iconeCompetence"></a></li>
-            <li><a href="#projet" class="iconeProjet"></a></li>
-            <li><a href="#contact" class="iconeMail" ></a></li>
-            <li><a href="./ressource/CV.pdf" target="_blank" rel="noopener noreferrer" class="iconeCV"></a></li>
-
-        </ul>
-    </nav>
-    <div class="container">
-        <div class="fullimage"></div>
+    <div class="main">
+        <video class="fullscreen-video" id="myVideo" autoplay="autoplay" muted loop>
+            <source src="./ressource/fond.mp4" type="video/mp4">
+            <p>Votre navigateur ne prend pas en charge les vidéos HTML5.
+                Images d’archives gratuites par <a href=" http://www.videezy.com">Videezy.com</a> </p>
+        </video>
+        <button id="vidon" class="video-control">
+            <ion-icon id="logovid" name="pause-outline"></ion-icon>
+        </button>
+        <div class="nav1">
+            <ul>
+                <li><a href="#">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </a></li>
+                <li><a href="#Competence">
+                        <ion-icon name="ribbon-outline"></ion-icon>
+                    </a></li>
+                <li><a href="#projet">
+                        <ion-icon name="construct-outline"></ion-icon>
+                    </a></li>
+                <li><a href="#contact">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </a></li>
+            </ul>
+            <div id="marker"></div>
+        </div>
         <h2 id="Competence" class="titre">
             Compétences
         </h2>
         <section class="article">
             <div class="flex">
-                <div class="card">
+                <div class="cardWeb">
                     <div class="box">
-                        <div>
+                        <div class="html bloq">
                             <div class="percent">
                                 <svg>
                                     <circle cx="70" cy="70" r="70"></circle>
@@ -45,13 +57,9 @@
                                     <h2>80<span>%</span></h2>
                                 </div>
                             </div>
+                            <div>Html</div>
                         </div>
-                    </div>
-                    <div class="text">Html</div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <div>
+                        <div class="css bloq">
                             <div class="percent">
                                 <svg>
                                     <circle cx="70" cy="70" r="70"></circle>
@@ -61,29 +69,26 @@
                                     <h2>80<span>%</span></h2>
                                 </div>
                             </div>
+                            <div>Css</div>
                         </div>
-                    </div>
-                    <div class="text">CSS</div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <div>
+                        <div class="javascript bloq">
                             <div class="percent">
                                 <svg>
                                     <circle cx="70" cy="70" r="70"></circle>
                                     <circle cx="70" cy="70" r="70"></circle>
                                 </svg>
                                 <div class="number">
-                                    <h2>65<span>%</span></h2>
+                                    <h2>75<span>%</span></h2>
                                 </div>
                             </div>
+                            <div>JavaScript</div>
                         </div>
                     </div>
-                    <div class="text">JavaScript</div>
+                    <div class="text">Front</div>
                 </div>
-                <div class="card">
+                <div class="cardBack">
                     <div class="box">
-                        <div>
+                        <div class="php bloq">
                             <div class="percent">
                                 <svg>
                                     <circle cx="70" cy="70" r="70"></circle>
@@ -93,13 +98,26 @@
                                     <h2>50<span>%</span></h2>
                                 </div>
                             </div>
+                            <div>Php</div>
+                        </div>
+                        <div class="sql bloq">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>95<span>%</span></h2>
+                                </div>
+                            </div>
+                            <div>SQL</div>
                         </div>
                     </div>
-                    <div class="text">PHP</div>
+                    <div class="text">Back</div>
                 </div>
-                <div class="card">
+                <div class="cardLogiciel">
                     <div class="box">
-                        <div>
+                        <div class="c bloq">
                             <div class="percent">
                                 <svg>
                                     <circle cx="70" cy="70" r="70"></circle>
@@ -109,9 +127,34 @@
                                     <h2>90<span>%</span></h2>
                                 </div>
                             </div>
+                            <div>C</div>
+                        </div>
+                        <div class="net bloq">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>75<span>%</span></h2>
+                                </div>
+                            </div>
+                            <div>C#</div>
+                        </div>
+                        <div class="java bloq">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>75<span>%</span></h2>
+                                </div>
+                            </div>
+                            <div>Java</div>
                         </div>
                     </div>
-                    <div class="text">C</div>
+                    <div class="text">Logiciel</div>
                 </div>
             </div>
         </section>
@@ -120,13 +163,9 @@
         </h2>
         <section class="article">
             <div class="carous">
+                <div id="numcarous">1/3</div>
                 <div class="scene">
                     <div class="carousel">
-                        <div class="carousel__cell"></div>
-                        <div class="carousel__cell"></div>
-                        <div class="carousel__cell"></div>
-                        <div class="carousel__cell"></div>
-                        <div class="carousel__cell"></div>
                         <div class="carousel__cell"></div>
                         <div class="carousel__cell"></div>
                         <div class="carousel__cell"></div>
@@ -140,59 +179,62 @@
                     </div>
                 </div>
                 <div class="casebutton">
-                    <button class="previous-button button"><</button>
-                    <a id="pro" target="_blank" rel="noopener noreferrer" class="Projet">Mon projet</a>
-                    <button class="next-button button" >></button>
+                    <button class="previous-button button">
+                        <</button>
+                            <a id="pro" target="_blank" rel="noopener noreferrer" class="Projet">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a id="pla" target="_blank" rel="noopener noreferrer" class="Projet">
+                                <ion-icon name="play"></ion-icon>
+                            </a>
+                            <button class="next-button button">></button>
                 </div>
             </div>
             <div class="description">
-                <div class="description--active"> Zeldo est un petit rpg réalisé avec le logiciel CodeBlock en language C. Dans ce jeu vous pouvez vous déplacer dans différents environnements, commercer avec un marchand, gérer votre inventaire et vous battre avec des ennemis</div>
-                <div>Ce portfolio est issu d'un projet de fin d'année qui avait comme consigne "réaliser un portfolio en HTML CSS JavaScript"</div>
-                <div>peut être un Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate necessitatibus quia impedit odit et, illo dolorem maxime dicta! Nihil dolorem quasi vitae obcaecati nulla aut cum quos voluptas accusamus impedit!</div>
+                <div class="description--active"> Zeldo est un petit rpg réalisé avec le logiciel CodeBlock en
+                    language C. Dans ce jeu vous pouvez vous déplacer dans différents environnements, commercer avec
+                    un marchand, gérer votre inventaire et vous battre avec des ennemis</div>
+                <div>Ce portfolio est issu d'un projet de fin d'année qui avait comme consigne "réaliser un
+                    portfolio en HTML CSS JavaScript"</div>
+                <div>YcoinV1 est un projet de création d'une monnaie numérique se basant sur une base de donnée en sql gérer par phpMyAdmin,
+                    avec la possibilité de faire des transfères entre membres</div>
+                <div>Un futur projet (peut être le votre 😄)</div>
             </div>
-
         </section>
-
-        <h2 id="contact"></h2>
-
+        <h2 id="contact" class="titre">Contacts</h2>
         <section class="articleContact">
-            <form class="mail">
-                <span>
-                    <input class="basic-slide" id="name" type="text" placeholder="Votre Nom" /><label for="name">Nom</label>
-                </span>
-                <span>
-                    <input class="basic-slide" id="email" type="text" placeholder="Votre Email" /><label for="email">Email</label>
-                </span>
-                <span>
-                    <input class="basic-slide" id="phone" type="text" placeholder="Votre numéro de Téléphone" /><label for="phone">Téléphone</label>
-                </span>
-                <div class="bigbox">
-                    <textarea type="text" name="message" id="message" required="" style="margin: 0px;width: 100%;height: 100%;resize: none;" placeholder="Entrez votre message ici..."></textarea>
-                </div>
-                <div class="submit">
-                    <input type="submit" name="submit" value="Envoyer" id="envoyer">
-                </div>
-            </form>
-            <div class="icone">
-                <div class="titrecontact">
-                    Contacts
-                </div>
-                <div class="flex1">
-                    <div class="flex1">
-                        <li><a href="https://www.linkedin.com/in/marius-bianchi-31205820b/" target="_blank" rel="noopener noreferrer" class="iconeLink"></a></li>
-                        <li><a href="https://github.com/Arya-Fr" target="_blank" rel="noopener noreferrer" class="iconeGit"></a></li>    
+            <div class="flex1">
+                <div class="flex2">
+                    <div class="cv">
+                        <div class="icone"><a href="https://www.linkedin.com/in/marius-bianchi-31205820b/" target="_blank"rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></div>
+                        <div class="te"><a href="https://www.linkedin.com/in/marius-bianchi-31205820b/" target="_blank"rel="noopener noreferrer">Linkedin</a></div>
                     </div>
-                    <div class="flex1">
-                        <li><a href="tel:0665229644" rel="noopener noreferrer" class="iconeT"></a></li>
-                        <li><a href="mailto:bianchi.marius06@gmail.com" rel="noopener noreferrer" class="iconeM"></a></li>
+                    <div class="cv">
+                        <div class="icone"><a href="https://github.com/Arya-Fr" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github"></ion-icon></a></div>
+                        <div class="te"><a href="https://github.com/Arya-Fr" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+                    </div>
+                    <div class="cv">
+                        <div class="icone"><a href="./ressource/CV.pdf" target="_blank" rel="noopener noreferrer"><ion-icon name="newspaper-outline"></ion-icon></a></div>
+                        <div class="te"><a href="./ressource/CV.pdf" target="_blank" rel="noopener noreferrer">CV</a></div>
+                    </div>
+                </div>
+                <div class="flex2">
+                    <div class="cv">
+                        <div class="icone"><a href="mailto:bianchi.marius.pro@gmail.com" rel="noopener noreferrer"><ion-icon name="mail-outline"></ion-icon></a></div>
+                        <div class="te"><a href="mailto:bianchi.marius.pro@gmail.com" rel="noopener noreferrer">bianchi.marius.pro@gmail.com</a></div>
+                    </div>
+                    <div class="cv">
+                        <div class="icone"><a href="tel:0665229644" rel="noopener noreferrer"><ion-icon name="phone-portrait-outline"></ion-icon></a></div>
+                        <div class="te"><a href="tel:0665229644" rel="noopener noreferrer">06.65.22.96.44</a></div>
                     </div>
                 </div>
             </div>
         </section>
         <script src="./ressource/JavaScript.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </div>
     <footer>
-
     </footer>
 </body>
 
