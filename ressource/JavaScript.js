@@ -31,7 +31,7 @@ function rotateCarousel() {
   switch (selectedIndex) {
     case 0: git.href = "https://github.com/Arya-Fr/Zeldo"; break;
     case 1: git.href = "https://github.com/Arya-Fr/Portfolio"; break;
-    case 2: git.href = "https://google.com"; break;
+    case 2: git.href = "https://github.com/Arya-Fr/YcoinV1"; break;
   }
 }
 
