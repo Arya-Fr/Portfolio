@@ -1,6 +1,6 @@
 var carousel = document.querySelector('.carousel');
 var cells = carousel.querySelectorAll('.carousel__cell');
-var cellCount = 3;
+var cellCount = 4;
 var selectedIndex = 0;
 var selectedRotation = 0;
 var compteur = document.getElementById("numcarous");
@@ -32,6 +32,7 @@ function rotateCarousel() {
     case 0: git.href = "https://github.com/Arya-Fr/Zeldo"; break;
     case 1: git.href = "https://github.com/Arya-Fr/Portfolio"; break;
     case 2: git.href = "https://github.com/Arya-Fr/YcoinV1"; break;
+    case 3: git.href = "https://github.com/Arya-Fr/Urban-Marginal"; break;
   }
 }
 
