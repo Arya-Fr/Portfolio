@@ -170,13 +170,8 @@ ul li.active a ion-icon {
 
 .fullscreen-video {
         position: fixed;
-        overflow: hidden;
         top: 50%;
         left: 50%;
-        min-width: 100%;
-        min-height: 20vh;
-        width: auto;
-        height: auto;
         transform: translateX(-50%) translateY(-50%);
         z-index: -20;
 }
@@ -234,7 +229,6 @@ div div p {
         text-align: center;
         font-size: 22px;
         padding: 40px;
-        height: 180px;
         width: 400px;
         transition: linear 200ms;
 }
@@ -361,7 +355,7 @@ div div p {
 .scene {
   position: relative;
   width: 300px;
-  height: 10vw;
+  height: 192px;
   perspective: 1000px;
 }
 
@@ -461,14 +455,75 @@ div div p {
         opacity: 1;
 }
 
+@media(max-width: 1550px), screen and (orientation: portrait){
 
-@media (max-width: 400px), screen and (orientation: portrait){
-       
         .nav1 {
-                padding-top: 1vw;
+                width: 70%;
+        }
+
+        ul {
+                width: 100%;
+        }
+
+        .article {
+                flex-direction: column;
+        }
+
+        .description {
+                position: relative;
+                border-radius: 5px;
+                width: 80%;
+        }
+}
+
+@media(max-width: 900px), screen and (orientation: portrait){
+        .nav1 {
                 width: 100%;
                 border-radius: 0%;
         }
+
+        ul {
+                width: 100%;
+                border-radius: 0%;
+        }
+
+        .video-control{
+                display: none;
+        }
+        
+        .description {
+                border-radius: 15px;
+                width: 80%;
+                padding: 25px;
+                transition: none;
+        }
+
+        .carous {
+                width: 95%;
+                margin-bottom: 40px;
+        }
+
+        .articleContact{
+                flex-direction: column;
+                width: 100%;
+        }
+
+        div .flex1 {
+                flex-wrap: wrap;
+                flex-direction:row;
+        }
+
+        .previous-button {
+                bottom: 0px;
+        }
+        
+        .next-button {
+                bottom: 0px;
+        }
+
+}
+
+@media (max-width: 400px), screen and (orientation: portrait){
 
         h1 {
                 top: 15vw;
@@ -480,45 +535,29 @@ div div p {
                 font-size: 6vw;
         }
 
-}
-
-@media(max-width: 900px), screen and (orientation: portrait){
-        .description {
-                width: 90%;
+        .percent {
+                display: none;
         }
 
-        .carous {
-                height: 300px;
-                margin-bottom: 40px;
+        .flex .cardLogiciel {
+                height: 100px;
+            }
+            
+            .flex .cardWeb {
+                height: 100px;
+            }
+            
+            .flex .cardBack {
+                height: 100px;
+
+            }
+        .bloq {
+                height: 25px;
+                width: 100px;
+        }
+        
+        .cardWeb .javascript {
+                width: 200px;
         }
 
-        .articleContact{
-                flex-direction: column;
-        }
-
-        div .flex1 {
-                flex-wrap: wrap;
-                flex-direction:row;
-        }
-
-        .titrecontact {
-                font-size: 5vw;
-        }
-
-        .icone {
-                width: 100%;
-        }
-
-        .basic-slide{
-                padding-left: 5px;
-        }
-
-        .basic-slide + label {
-                left: 5px;
-        }
-
-        .mail {
-                width: 100%;
-                padding-left: 5px;
-        }
 }

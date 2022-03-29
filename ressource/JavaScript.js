@@ -18,7 +18,6 @@ var test = document.getElementById('pla');
 
 function retourNormal(){
   element.style.transform = 'translateX(0px)';
-  
   rotateCarousel();
 }
 
@@ -38,9 +37,15 @@ function rotateCarousel() {
 
 var prevButton = document.querySelector('.previous-button');
 prevButton.addEventListener('click', function () {
-  element.style.transform = 'translateX(250px)';
+  if (window.innerWidth >= 900){
+    element.style.transform = 'translateX(250px)';
+  }
   tableau[selectedIndex].classList.remove('description--active');
-  setTimeout(retourNormal,200);
+  if (window.innerWidth >= 900){
+    setTimeout(retourNormal,200);
+  }else{
+    setTimeout(retourNormal,10);
+  }
   if (selectedIndex > 0) {
     selectedIndex--;
   } else {
@@ -51,9 +56,15 @@ prevButton.addEventListener('click', function () {
 
 var nextButton = document.querySelector('.next-button');
 nextButton.addEventListener('click', function () {
-  element.style.transform = 'translateX(250px)';
+  if (window.innerWidth >= 900){
+    element.style.transform = 'translateX(250px)';
+  }
   tableau[selectedIndex].classList.remove('description--active');
-  setTimeout(retourNormal,200);
+  if (window.innerWidth >= 900){
+    setTimeout(retourNormal,200);
+  }else{
+    setTimeout(retourNormal,10);
+  }
   if (selectedIndex == cellCount - 1) {
     selectedIndex = 0;
   } else {
@@ -121,3 +132,7 @@ vid.addEventListener('click', function () {
     logovid.name = "play-outline";
   }
 });
+
+if (window.innerWidth <= 900){
+  video.pause();
+}
