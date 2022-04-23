@@ -14,7 +14,7 @@ var element = document.querySelector('.description');
 var tableau = element.getElementsByTagName('div');
 
 var git = document.getElementById('pro');
-var test = document.getElementById('pla');
+var projet = document.getElementById('pla');
 
 function retourNormal(){
   element.style.transform = 'translateX(0px)';
@@ -28,10 +28,10 @@ function rotateCarousel() {
   tableau[selectedIndex].classList.add('description--active');
   compteur.innerHTML = selectedIndex + 1 + "/" + cellCount;
   switch (selectedIndex) {
-    case 0: git.href = "https://github.com/Arya-Fr/Zeldo"; break;
-    case 1: git.href = "https://github.com/Arya-Fr/Portfolio"; break;
-    case 2: git.href = "https://github.com/Arya-Fr/YcoinV1"; break;
-    case 3: git.href = "https://github.com/Arya-Fr/Urban-Marginal"; break;
+    case 0: git.href = "https://github.com/Arya-Fr/Zeldo"; projet.value = "1"; break;
+    case 1: git.href = "https://github.com/Arya-Fr/"; projet.value = "2"; break;
+    case 2: git.href = "https://github.com/Arya-Fr/YcoinV1"; projet.value = "3"; break;
+    case 3: git.href = "https://github.com/Arya-Fr/Urban-Marginal"; projet.value = "4"; break;
   }
 }
 

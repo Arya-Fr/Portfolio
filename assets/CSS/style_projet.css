@@ -1,0 +1,94 @@
+body,
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    background-color: #42455c;
+    color: #fff;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6em;
+    pointer-events: none;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: 400;
+    pointer-events: none;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    margin-bottom: 20px;
+}
+
+.back{
+    position: absolute;
+    font-size: 3em;
+    color: #fff;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: #34374c;
+    margin-bottom: 25px;
+}
+
+.article img,.galerie img {
+    width: auto;
+    max-height: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.galerie {
+    display: flex;
+    padding: 15px;
+    margin: auto;
+    width: fit-content;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #34374c;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.git {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: #34374c;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    align-items: center;
+    margin: auto;
+}
