@@ -36,7 +36,7 @@
         <?php if(isset($projet["image_compl4"])){?>
         <section class="galerie">
             <img src="./assets/IMG/<?php echo $projet["image_compl4"] ?>">
-            <?php } if(isset($projet["image_compl5"])){ ?>
+            <?php if(isset($projet["image_compl5"])){ ?>
             <img src="./assets/IMG/<?php echo $projet["image_compl5"] ?>">
             <?php } ?>
         </section>

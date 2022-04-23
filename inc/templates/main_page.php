@@ -225,7 +225,7 @@
                     language C. Dans ce jeu vous pouvez vous déplacer dans différents environnements, commercer avec
                     un marchand, gérer votre inventaire et vous battre avec des ennemis</div>
                 <div>Ce portfolio fait en html css javascript</div>
-                <div>YcoinV1 est un projet de création d'une monnaie numérique se basant sur une base de donnée en sql gérer par phpMyAdmin,
+                <div>Ycoin est un projet de création d'une monnaie numérique se basant sur une base de donnée firebase
                     avec la possibilité de faire des transfères entre membres</div>
                 <div>Medieval Marginal est un jeu multijoueur local en équipe réalisé en java dans le cadre d'un tp</div>
                 <div>Un futur projet (peut être le votre 😄)</div>
