@@ -1,6 +1,6 @@
 var carousel = document.querySelector('.carousel');
 var cells = carousel.querySelectorAll('.carousel__cell');
-var cellCount = 4;
+var cellCount = cc;
 var selectedIndex = 0;
 var selectedRotation = 0;
 var compteur = document.getElementById("numcarous");

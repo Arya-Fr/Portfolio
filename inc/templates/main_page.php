@@ -2,9 +2,9 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BIANCHI Marius projet</title>
+    <title>BIANCHI Marius</title>
     <link rel="stylesheet" href="/assets/CSS/style.css">
     <link rel="icon" href="./assets/IMG/Logo page.png" />
 </head>
@@ -33,6 +33,9 @@
                     </a></li>
                 <li><a href="#projet">
                         <ion-icon name="construct-outline"></ion-icon>
+                    </a></li>
+                <li><a href="#blog">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
                     </a></li>
                 <li><a href="#contact">
                         <ion-icon name="person-outline"></ion-icon>
@@ -231,6 +234,18 @@
                 <div>Un futur projet (peut être le votre 😄)</div>
             </div>
         </section>
+        <h2 id="blog" class="titre">Blog</h2>
+        <section class="articleContact">
+            <?php foreach($blog as $b) { ?>
+                <form method="POST">
+                    <h4><?php echo($b['title']) ?></h4>
+                    <button type="submit">Voir</button>
+                    <div><?php echo($b['content']) ?></div>
+                    <h6><?php echo($b['date']) ?></h6>
+                    <input type="hidden" name="blog" value=<?php echo($b['id_b']) ?>>
+                </form>
+            <?php } ?>
+        </section>
         <h2 id="contact" class="titre">Contacts</h2>
         <section class="articleContact">
             <div class="flex1">
@@ -270,6 +285,7 @@
                 </div>
             </div>
         </section>
+        <script>var cc = <?php echo($projet)?></script>
         <script src="./assets/JS/JavaScript.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
