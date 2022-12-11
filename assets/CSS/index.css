@@ -64,7 +64,7 @@ body{
     background: #171717;
 }
 #header{
-    background:#171717;
+    background:#000000;
     height: 100vh;
     width: 100%;;
     overflow: hidden;
@@ -657,7 +657,8 @@ body{
     width: 45%;
     padding: 0%;
     position: relative;
-    font-family: poppihtmlns;
+    font-family: raleway;
+    font-weight: bold;
     color:whitesmoke;
     display: inline-block;
     padding:1.5%;
@@ -682,7 +683,7 @@ body{
    position: relative;
    overflow: hidden;
 }
-.window-progress{
+.html-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -695,14 +696,13 @@ body{
     border-radius: 10px;
     background: #c70039;
 }
-.linux-progress{
+.adobe-progress{
     position: absolute;
     top:10%;
     left:1%;
     height: 80%;
     display: flex;
     align-items: center;
-    font-family: poppins;
     justify-content: center;
     transition: all .4s ease;
     width:80%;
@@ -722,7 +722,7 @@ body{
     border-radius: 10px;
     background: #c70039;
 }
-.python-progress{
+.php-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -735,7 +735,7 @@ body{
     background: #c70039;
     transition: all .4s ease;
 }
-.c-progress{
+.jquery-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -748,7 +748,7 @@ body{
     border-radius: 10px;
     background: #c70039;
 }
-.sql-progress{
+.seo-progress{
     position: absolute;
     top:10%;
     left:1%;
