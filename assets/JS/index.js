@@ -1,3 +1,7 @@
+let sefe = 0;
+var audio = new Audio('audio_file.mp3');
+
+
 $(window).on('load',function(){
   gsap.to('#loader',1,{y:"-100%"});
   gsap.to('#loader',1,{opacity:0});
@@ -7,15 +11,16 @@ $(window).on('load',function(){
   gsap.to('#navigation-content',0,{display:"flex",delay:1});
 })
 $(function(){
-  $('.color-panel').on("click",function(e) {
+  $('#mstsf').on("click",function(e) {
     e.preventDefault();
-    $('.color-changer').toggleClass('color-changer-active');
-});
-$('.colors a').on("click",function(e) {
-  e.preventDefault();
-  var attr = $(this).attr("title");
-  console.log(attr);
-  $('head').append('<link rel="stylesheet" href="assets/css/'+attr+'.css">');
+    sefe++;
+    if (sefe == 10){
+      $('head').append('<link rel="stylesheet" href="assets/css/color-purple.css">');
+      audio.play();
+    }else if (sefe == 11){
+      sefe = 0;
+      $('head').append('<link rel="stylesheet" href="assets/css/color-blue.css">');
+    }
 });
 });
 $(function(){
