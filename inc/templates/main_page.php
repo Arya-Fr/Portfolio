@@ -9,8 +9,8 @@
     <meta name="author" content="Marius bianchi" />
     <title>BIANCHI Marius</title>
     <link rel="icon" href="./assets/images/blahaj_logo.png" />
-    <link rel="stylesheet" href="/assets/css/index.css">
-    <link rel="stylesheet" href="/assets/css/color-blue.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/color-blue.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 </head>
 
@@ -301,10 +301,10 @@
                 </div>
             </div>
         </div>
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/particles.js"></script>
-        <script src="assets/js/particles.min.js"></script>
-        <script src="assets/js/index.js"></script>
+        <script src="./assets/js/jquery.min.js"></script>
+        <script src="./assets/js/particles.js"></script>
+        <script src="./assets/js/particles.min.js"></script>
+        <script src="./assets/js/index.js"></script>
         <script>
             particlesJS("particles", {
                 "particles": {
