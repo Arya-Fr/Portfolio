@@ -1,5 +1,5 @@
 let sefe = 0;
-var audio = new Audio('audio_file.mp3');
+var audio = new Audio('./assets/audio/a.mp3');
 
 
 $(window).on('load',function(){
