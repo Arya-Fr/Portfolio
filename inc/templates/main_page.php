@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Marius Biaanchi - Portfolio personnel" />
+    <meta name="description" content="Marius Bianchi - Portefolio personnel" />
     <meta name="keywords" content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard, réseau, administrateur, ingenieur, cybersécurité" />
     <meta name="author" content="Marius bianchi" />
     <title>BIANCHI Marius</title>
@@ -34,7 +34,7 @@
             </div>
             <div class="navigation-links">
                 <a href="#" data-text="ACCUEIL" id="home-link">ACCUEIL</a>
-                <a href="#" data-text="ABOUT" id="about-link">A PROPOS</a>
+                <a href="#" data-text="A PROPOS" id="about-link">A PROPOS</a>
                 <a href="#" data-text="BLOG" id="blog-link">BLOG</a>
                 <a href="#" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
                 <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
@@ -80,12 +80,12 @@
                 <div class="about-main">
                     <div class="about-first-paragraph wow">
                         <span class="about-first-line">
-                            Ingénieur en
+                            Étudiant en
                             <span class="color"> Cybersecurité </span>
                             <br>
-                            Présent sur le site sophia antipolis </span>
+                            Présent sur le site de sophia antipolis</span>
                         <br>
-                        <span class="about-second-line"> </span>
+                        <span class="about-second-line">Actuellement en 3eme année de bachelor informatqique avec une spécialisation en cybersécurité a sophia ynov campus</span>
                         <div class="cv">
                             <a href="./assets/CV.pdf" target="_blank" rel="noopener noreferrer"><button>Télécharger <span class="colors">CV</span></button></a>
                         </div>

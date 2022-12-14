@@ -12,7 +12,7 @@ $b = $blog->fetchAll();
 foreach($b as &$bb){
     foreach($bb as &$val){
         if (isset($val)){
-            //$val = utf8_encode($val);
+            $val = utf8_encode($val);
         }
     }
 }
