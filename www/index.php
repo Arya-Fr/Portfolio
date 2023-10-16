@@ -52,7 +52,7 @@
           <li><a class="nav-link active" href="#header">Accueil</a></li>
           <li><a class="nav-link" href="#about">A propos</a></li>
           <li><a class="nav-link" href="#resume">Expérience</a></li>
-  <!--        <li><a class="nav-link" href="#services">Services</a></li>  -->
+          <!--        <li><a class="nav-link" href="#services">Services</a></li>  -->
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -82,84 +82,63 @@
           <img src="assets/img/me.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Expert en Cybersécurité</h3>
+          <h3>Étudiant en Cybersécurité</h3>
           <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
+          <div style="opacity: 0.5">Dicere perfacile est, opus exercere molestum.</div>
+          Dire c'est facile, mettre en pratique est difficile.
           </p>
           <div class="row">
             <div class="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Site web:</strong> <span>www.marius-bianchi.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Localisation:</strong> <span>Sophia Antipolis, France</span></li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>contact-pro@marius-bianchi.com</span></li>
               </ul>
             </div>
           </div>
           <p>
-            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+            Étudiant passionné en cybersécurité, actuellement en Master 1, avec un fort intérêt pour la protection des systèmes informatiques et la lutte contre les menaces cyber. <br><br>
+            Compétent dans l'analyse des vulnérabilités, la mise en œuvre de solutions de sécurité avancées et la sensibilisation à la sécurité auprès des utilisateurs.<br><br>
+            Motivé par l'apprentissage continu et désireux de contribuer à la protection des données et à la préservation de la confidentialité dans un monde numérique en constante évolution.
           </p>
         </div>
       </div>
 
     </div><!-- End About Me -->
 
-    <!-- ======= Counts ======= -->
-    <div class="counts container">
+    <!-- ======= Certification ======= -->
+    <div class="interests container">
 
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Happy Clients</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Awards</p>
-          </div>
-        </div>
-
+      <div class="section-title">
+        <h2>Certifications</h2>
       </div>
 
-    </div><!-- End Counts -->
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i><img src="/assets/img/stormshield.png"></i>
+            <h3>Administrateur Stormshield</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i><img src="/assets/img/tryhackme.png"></i>
+            <h3>Jr Penetration Tester</h3>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Certifiactions -->
 
     <!-- ======= Skills  ======= -->
     <div class="skills container">
 
       <div class="section-title">
-        <h2>Skills</h2>
+        <h2>Compétences</h2>
       </div>
 
       <div class="row skills-content">
@@ -177,13 +156,6 @@
             <span class="skill">CSS <i class="val">90%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">JavaScript <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
@@ -205,12 +177,6 @@
             </div>
           </div>
 
-          <div class="progress">
-            <span class="skill">Photoshop <i class="val">55%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
 
         </div>
 
@@ -222,87 +188,89 @@
     <div class="interests container">
 
       <div class="section-title">
-        <h2>Interests</h2>
+        <h2>Environnement</h2>
       </div>
 
       <div class="row">
         <div class="col-lg-3 col-md-4">
           <div class="icon-box">
-            <i class="ri-store-line" style="color: #ffbb2c;"></i>
-            <h3>Lorem Ipsum</h3>
+            <i class="bi-microsoft" style="color: #08a1f7;"></i>
+            <h3>Windows</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
           <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-            <h3>Dolor Sitema</h3>
+            <i class="bi bi-ubuntu" style="color: #dd4814;"></i>
+            <h3>Ubuntu</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
           <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-            <h3>Sed perspiciatis</h3>
+            <i class="bi bi-windows" style="color: #08a1f7;"></i>
+            <h3>Windows Server</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
           <div class="icon-box">
-            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3>Magni Dolores</h3>
+            <i class="bi bi-hdd-rack" style="color: #F38F08;"></i>
+            <h3>Vmware</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #47aeff;"></i>
-            <h3>Nemo Enim</h3>
+            <i class="bi bi-filetype-js" style="color: #F7E018;"></i>
+            <h3>Javascript</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-            <h3>Eiusmod Tempor</h3>
+            <i class="bi bi-filetype-py" style="color: #2C6999;"></i>
+            <h3>Python</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-            <h3>Midela Teren</h3>
+            <i class="bi bi-database" style="color: #ffffff;"></i>
+            <h3>SQL</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-            <h3>Pira Neve</h3>
+            <i class="bi bi-database" style="color: #FFCB2D;"></i>
+            <h3>Firebase</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-anchor-line" style="color: #b2904f;"></i>
-            <h3>Dirada Pack</h3>
+            <i class="bi bi-bar-chart-steps" style="color: #E2A000;"></i>
+            <h3>Power bi</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-disc-line" style="color: #b20969;"></i>
-            <h3>Moton Ideal</h3>
+            <i class="bi bi-envelope-fill" style="color: #fe9d58;"></i>
+            <h3>Mail in black</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-base-station-line" style="color: #ff5828;"></i>
-            <h3>Verdo Park</h3>
+            <i class="bi bi-terminal" style="color: #ffffff;"></i>
+            <h3>Bash</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
-            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-            <h3>Flavor Nivelanda</h3>
+            <i class="bi bi-terminal" style="color: #4d7ed6;"></i>
+            <h3>Powershell</h3>
           </div>
         </div>
       </div>
 
     </div><!-- End Interests -->
 
-    <!-- ======= Testimonials ======= -->
+<!--
+
+     ======= Testimonials ======= 
     <div class="testimonials container">
 
       <div class="section-title">
@@ -323,7 +291,7 @@
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div> End testimonial item 
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -336,7 +304,7 @@
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div> End testimonial item 
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -349,7 +317,7 @@
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div> End testimonial item 
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -362,7 +330,7 @@
               <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div> End testimonial item 
 
           <div class="swiper-slide">
             <div class="testimonial-item">
@@ -375,7 +343,7 @@
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
             </div>
-          </div><!-- End testimonial item -->
+          </div>< End testimonial item 
 
         </div>
         <div class="swiper-pagination"></div>
@@ -385,7 +353,9 @@
 
       </div>
 
-    </div><!-- End Testimonials  -->
+    </div> End Testimonials  
+
+    -->
 
   </section><!-- End About Section -->
 
@@ -394,15 +364,15 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check My Resume</p>
+        <h2>Expérience</h2>
+        <p>Mon parcours</p>
       </div>
 
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="resume-title">Sumary</h3>
+          <h3 class="resume-title">Résumé</h3>
           <div class="resume-item pb-0">
-            <h4>Alice Barkley</h4>
+            <h4>Marius Bianchi</h4>
             <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
             <p>
             <ul>
@@ -413,22 +383,22 @@
             </p>
           </div>
 
-          <h3 class="resume-title">Education</h3>
+          <h3 class="resume-title">Etude</h3>
           <div class="resume-item">
-            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-            <h5>2015 - 2016</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+            <h4>Master Expert Cybersécurité</h4>
+            <h5>Actuellement</h5>
+            <p><em>Sophia Ynov Campus, Valbonne</em></p>
             <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
           </div>
           <div class="resume-item">
-            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-            <h5>2010 - 2014</h5>
-            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+            <h4>Bachelor Informatique spécialité Cybersécurité</h4>
+            <h5>2020 - 2023</h5>
+            <p><em>Sophia Ynov Campus, Valbonne</em></p>
             <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
           </div>
         </div>
         <div class="col-lg-6">
-          <h3 class="resume-title">Professional Experience</h3>
+          <h3 class="resume-title">Expérience professionnel</h3>
           <div class="resume-item">
             <h4>Senior graphic design specialist</h4>
             <h5>2019 - Present</h5>
